@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1">
+    <test name="Run with Method">
+        <classes>
+            <class name="lochaqc.TestRunXML.RunTestNG03">
+                <methods>
+                    <include name="testGoogleSearch" />
+                </methods>
+            </class>
+
+
+
+        </classes>
+    </test>
+</suite>
