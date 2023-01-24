@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-24T12:10:04 ICT" name="Suite" finished-at="2023-01-24T12:10:22 ICT" duration-ms="17778">
+    <groups>
+    </groups>
+    <test started-at="2023-01-24T12:10:04 ICT" name="Run with Class" finished-at="2023-01-24T12:10:22 ICT" duration-ms="17778">
+      <class name="lochaqc.Unit10_AnnotationTestNG.LoginCMS">
+        <test-method is-config="true" signature="createBrowser()[pri:0, instance:lochaqc.Unit10_AnnotationTestNG.LoginCMS@1b083826]" started-at="2023-01-24T12:10:04 ICT" name="createBrowser" finished-at="2023-01-24T12:10:07 ICT" duration-ms="2567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBrowser -->
+        <test-method signature="testAnhTesterBlog()[pri:1, instance:lochaqc.Unit10_AnnotationTestNG.LoginCMS@1b083826]" started-at="2023-01-24T12:10:07 ICT" name="testAnhTesterBlog" description="Check blog AnhTester" finished-at="2023-01-24T12:10:12 ICT" duration-ms="5219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAnhTesterBlog -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:lochaqc.Unit10_AnnotationTestNG.LoginCMS@1b083826]" started-at="2023-01-24T12:10:12 ICT" name="closeBrowser" finished-at="2023-01-24T12:10:12 ICT" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="createBrowser()[pri:0, instance:lochaqc.Unit10_AnnotationTestNG.LoginCMS@1b083826]" started-at="2023-01-24T12:10:12 ICT" name="createBrowser" finished-at="2023-01-24T12:10:14 ICT" duration-ms="1376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBrowser -->
+        <test-method signature="testLoginCMS()[pri:2, instance:lochaqc.Unit10_AnnotationTestNG.LoginCMS@1b083826]" started-at="2023-01-24T12:10:14 ICT" name="testLoginCMS" description="Login CMS" finished-at="2023-01-24T12:10:21 ICT" duration-ms="7212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginCMS -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:lochaqc.Unit10_AnnotationTestNG.LoginCMS@1b083826]" started-at="2023-01-24T12:10:21 ICT" name="closeBrowser" finished-at="2023-01-24T12:10:22 ICT" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- lochaqc.Unit10_AnnotationTestNG.LoginCMS -->
+    </test> <!-- Run with Class -->
+  </suite> <!-- Suite -->
+</testng-results>

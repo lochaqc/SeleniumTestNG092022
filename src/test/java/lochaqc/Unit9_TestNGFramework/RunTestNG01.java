@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class RunTestNG {
+public class RunTestNG01 {
     WebDriver driver;
 
     @BeforeMethod

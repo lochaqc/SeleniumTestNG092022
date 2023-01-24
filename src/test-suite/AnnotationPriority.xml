@@ -3,8 +3,8 @@
 <suite name="Suite" verbose="1">
     <test name="Run with Class">
         <classes>
-            <class name="lochaqc.Unit9_TestNGFramework.RunTestNG01" />
-            <class name="lochaqc.Unit9_TestNGFramework.RunTestNG02" />
+            <class name="lochaqc.Unit10_AnnotationTestNG.AnnotationPriority" />
+
         </classes>
     </test>
 </suite>
