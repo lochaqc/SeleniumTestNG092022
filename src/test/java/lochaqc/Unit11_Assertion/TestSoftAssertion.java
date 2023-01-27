@@ -1,12 +1,12 @@
 package lochaqc.Unit11_Assertion;
 
-import lochaqc.common.BaseTest;
+import lochaqc.common.BaseTest_OLD;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class TestSoftAssertion extends BaseTest {
+public class TestSoftAssertion extends BaseTest_OLD {
     @Test
     public void testSoftAssert(){
         driver.get("https://rise.fairsketch.com/signin");

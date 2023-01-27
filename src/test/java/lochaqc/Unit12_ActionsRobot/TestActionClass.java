@@ -1,13 +1,13 @@
 package lochaqc.Unit12_ActionsRobot;
 
-import lochaqc.common.BaseTest;
+import lochaqc.common.BaseTest_OLD;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class TestActionClass extends BaseTest {
+public class TestActionClass extends BaseTest_OLD {
     @Test
     public void TestClick() throws InterruptedException {
 

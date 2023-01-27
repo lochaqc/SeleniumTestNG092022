@@ -1,13 +1,13 @@
 package lochaqc.Unit14_JavaScriptExecutor;
 
-import lochaqc.common.BaseTest;
-import lochaqc.keyword.WebUI;
+import lochaqc.common.BaseTest_OLD;
+import keyword.WebUI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class ExecuteScriptExample extends BaseTest {
+public class ExecuteScriptExample extends BaseTest_OLD {
 
     @Test
     public void testScript01(){

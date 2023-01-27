@@ -1,12 +1,12 @@
 package lochaqc.Unit13_Alert_Popup_iFrame;
 
-import lochaqc.common.BaseTest;
+import lochaqc.common.BaseTest_OLD;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 import java.util.Set;
 
-public class HandlePopupWindow extends BaseTest {
+public class HandlePopupWindow extends BaseTest_OLD {
 
     @Test
     public void TestPopup01() throws InterruptedException {

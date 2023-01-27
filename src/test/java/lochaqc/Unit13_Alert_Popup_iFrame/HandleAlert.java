@@ -1,18 +1,13 @@
 package lochaqc.Unit13_Alert_Popup_iFrame;
 
-import lochaqc.common.BaseTest;
+import lochaqc.common.BaseTest_OLD;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import java.time.Duration;
-
-public class HandleAlert extends BaseTest {
+public class HandleAlert extends BaseTest_OLD {
     @Test
     public void TestAlert01() throws InterruptedException {
         driver.get("http://demo.guru99.com/test/delete_customer.php");

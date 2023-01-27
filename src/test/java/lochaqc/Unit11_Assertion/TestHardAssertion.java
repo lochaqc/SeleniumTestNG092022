@@ -1,10 +1,10 @@
 package lochaqc.Unit11_Assertion;
 
-import lochaqc.common.BaseTest;
+import lochaqc.common.BaseTest_OLD;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestHardAssertion extends BaseTest {
+public class TestHardAssertion extends BaseTest_OLD {
     @Test(priority = 1)
     public void TestAssertEqual() {
 

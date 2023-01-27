@@ -1,10 +1,10 @@
 package lochaqc.Unit10_AnnotationTestNG;
 
-import lochaqc.common.BaseTest;
+import lochaqc.common.BaseTest_OLD;
 import org.openqa.selenium.By;
 import org.testng.annotations.*;
 
-public class LoginCMS extends BaseTest {
+public class LoginCMS extends BaseTest_OLD {
 
 
 
