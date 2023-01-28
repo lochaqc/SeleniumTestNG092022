@@ -33,5 +33,6 @@ public class TestHardAssertion extends BaseTest_OLD {
         Assert.assertTrue(actualTitle.contains(expectedTitle), "Not contain " + expectedTitle);
 
         System.out.println(actualTitle);
+
     }
 }

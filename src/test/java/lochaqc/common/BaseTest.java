@@ -23,7 +23,7 @@ public class BaseTest{
 
     @AfterMethod
     public void closeBrowser(){
-        System.out.println("Close browser from BaseTest_OLD");
+        System.out.println("Close browser from BaseTest");
         driver.quit();
     }
 }

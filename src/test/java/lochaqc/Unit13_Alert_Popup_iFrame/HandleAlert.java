@@ -58,6 +58,7 @@ public class HandleAlert extends BaseTest_OLD {
         System.out.println(resut.getText());
         Assert.assertTrue(resut.getText().contains("Anh Tester"), "Value has not been filled yet");
         Thread.sleep(2);
+
     }
 
 
