@@ -1,4 +1,4 @@
-package lochaqc.Bai15_Waits;
+package lochaqc.Unit15_Waits;
 
 import lochaqc.common.BaseTest_OLD;
 import keyword.WebUI;

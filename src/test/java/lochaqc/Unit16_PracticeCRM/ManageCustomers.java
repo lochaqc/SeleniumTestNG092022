@@ -19,36 +19,7 @@ import java.time.Duration;
 public class ManageCustomers extends BaseTest {
 
 
-    public static void waitForPageLoaded(WebDriver driver) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30), Duration.ofMillis(500));
-        JavascriptExecutor js = (JavascriptExecutor) driver;
 
-        //Wait for Javascript to load
-        ExpectedCondition<Boolean> jsLoad = new ExpectedCondition<Boolean>() {
-            @Override
-            public Boolean apply(WebDriver driver) {
-                return js.executeScript("return document.readyState").toString().equals("complete");
-            }
-        };
-
-        //Check JS is Ready
-        boolean jsReady = js.executeScript("return document.readyState").toString().equals("complete");
-
-        //Wait Javascript until it is Ready!
-        if (!jsReady) {
-            System.out.println("Javascript is NOT Ready.");
-            //Wait for Javascript to load
-            try {
-                wait.until(jsLoad);
-            } catch (Throwable error) {
-                error.printStackTrace();
-                Assert.fail("FAILED. Timeout waiting for page load.");
-
-
-
-            }
-        }
-    }
 
 
     @BeforeMethod
@@ -66,7 +37,7 @@ public class ManageCustomers extends BaseTest {
     @Test
     public void addCustomer(){
         //loginCRM();
-        waitForPageLoaded(driver);
+        WebUI.waitForPageLoaded(driver);
         driver.findElement(By.xpath("//span[normalize-space()='Customers']")).click();
         //driver.findElement(By.xpath("//a[normalize-space()='New Customer']")).click();
         //driver.findElement(By.xpath("//input[@id='company']")).sendKeys("Anh Tester Blog");
@@ -95,14 +66,14 @@ public class ManageCustomers extends BaseTest {
         driver.findElement(By.xpath("//div[@id='profile-save-section']//button[normalize-space()='Save']")).click();
         WebUI.sleep(1);
         driver.findElement(By.xpath("//div[@id='profile-save-section']//button[normalize-space()='Save']")).click();
-        waitForPageLoaded(driver);
+        WebUI.waitForPageLoaded(driver);
         WebUI.sleep(5);
 
         String getCustomerNameInDetail = driver.findElement(By.xpath("//input[@id='company']")).getAttribute("Value");
         System.out.println(getCustomerNameInDetail);
         Assert.assertEquals(getCustomerNameInDetail, CUSTOMER_NAME, "Customer name not matched");
 
-        waitForPageLoaded(driver);
+        WebUI.waitForPageLoaded(driver);
         driver.findElement(By.xpath("//span[normalize-space()='Customers']")).click();
         driver.findElement(By.xpath("//input[@class='form-control input-sm']")).sendKeys(CUSTOMER_NAME);
         WebUI.sleep(3);
